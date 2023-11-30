@@ -4,7 +4,7 @@ import { Bundle, Pool, Token } from './../types/schema'
 import { BigDecimal, BigInt } from '@graphprotocol/graph-ts'
 import { exponentToBigDecimal, safeDiv } from '../utils/index'
 
-const WETH_ADDRESS = '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2'
+const WETH_ADDRESS = '0xd6cb8a253e12893b0cF39Ca78F7d858652cCa1fe'
 const USDC_WETH_03_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
 
 // token where amounts should contribute to tracked volume and liquidity
@@ -12,8 +12,8 @@ const USDC_WETH_03_POOL = '0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8'
 export let WHITELIST_TOKENS: string[] = [
   WETH_ADDRESS, // WETH
   '0x6b175474e89094c44da98b954eedeac495271d0f', // DAI
-  '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48', // USDC
-  '0xdac17f958d2ee523a2206206994597c13d831ec7', // USDT
+  '0x55c32e8aB56021C012AB3d5a586b743664E73DA0', // USDC
+  '0x91Aa258324072dFf6F82408c2beB2F82D353b300', // USDT
   '0x0000000000085d4780b73119b644ae5ecd22b376', // TUSD
   '0x2260fac5e5542a773aa44fbcfedf7c193bc2c599', // WBTC
   '0x5d3a536e4d6dbd6114cc1ead35777bab948e3643', // cDAI
